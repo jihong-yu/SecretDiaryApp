@@ -9,7 +9,7 @@
 * SharedPrefrences 내장 라이브러리 사용
 ---
 ### 3. 지원기능
-1. 3가지 비밀번호 설정이 가능하며 비밀번호 변경이 가능합니다.(초기 비밀번호 000)
+1. 3 비밀번호 설정이 가능하며 비밀번호 변경이 가능합니다.(초기 비밀번호 000)
 2. 글을 작성하면 자동으로 기기내에 글을 저장해줍니다.(어플 재실행 시 글 데이터 존재)
 <img src="https://user-images.githubusercontent.com/57440834/139875722-af037449-85f7-40c2-8eb5-4712d098494c.png" width="700" height="1000">
 <img src="https://user-images.githubusercontent.com/57440834/139875491-df5d713c-8ee8-4ae1-b99d-d5fa49550b60.png" width="700" height="1000">
