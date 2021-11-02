@@ -81,7 +81,7 @@ private var passwordChanging = false
   글 저장부분에 있어서는 Handler와 Runnable을 이용하여 처리하였습니다. 기본적인 Handler를 초기화 후 텍스트에 작성한 글을 SharedPrefrences에 저장하는 Runnable을 설정하였습니다. 그 후
   editText의 addTextChangedListener를 불러와 사용자가 글 작성을 끝난 직후 afterTextChanged에 해당 Runnable를 Handler가 post해주는 식으로 코드를 짰습니다. 단, 이렇게 사용할 경우 성능
   상 사용자가 글을 치고 난 후 계속해서 SharedPreferences에 저장하기 때문에 Handler의 Postdelayed와 removeCallbacks 2개를 이용해서 사용자가 글을 작성한 후 다시 글을 쓰기까지의 텀이 존재
-  할 경우에만 SharedPreferences에 저장하도록 처리하였습니다. 다음 해당 코드입니다.
+  할 경우에만 SharedPreferences에 저장하도록 처리하였습니다.
   
   ```kotlin
  private val handler:Handler = Handler(Looper.getMainLooper())
