@@ -33,7 +33,6 @@ class DiaryActivity : AppCompatActivity() {
             //있다. apply는 비동기적으로 실행되기 때문에 blocking안됨
             sp.edit{
                 this.putString("diaryText",editText.text.toString())
-                Log.d("TAG", "putString: " +" 실행중")
             }
         }
 
